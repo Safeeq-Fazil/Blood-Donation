@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF ;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FF7381;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 40%;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    width: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    width: 20px;
+}
+
+.user-account {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.account-info {
+    background-color: #FF8A92;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.account-info p {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content-wrapper {
+    background-color:#cf556e;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 20px;
+    gap: 20%;
+    align-items: center;
+}
+
+.content-wrapper .content {
+    max-width: 500px;
+    color: #FF7381;
+}
+
+.content-wrapper h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: #FF7381;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.register {
+    background-color: #FF7381;
+    color: #fff;
+}
+
+.request {
+    background-color: #FF8A92;
+    color: #fff;
+}
+
+.poster img {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content p{
+    color: #fff;
+}
+.content h2{
+    color: #fff;
+}
+
+.All-course1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px; /* Fixed excessive gaps */
+    margin-bottom: 1%;
+    padding-top: 5%;
+}
+
+/* Course Box */
+.coursee1 {
+    background-color: rgb(234, 115, 115);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 20%; /* Adjust width to fit 4 boxes in a row */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px; /* Consistent spacing between rows */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+
+
+/* Course Hover Effect */
+.coursee1:hover {
+    transform: translateY(-5px);
+    background-color: #31b0d5; /* Bright Blue */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+  .text-box{
+    width: max-content;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+ .text-box h1{
+    font-size: 40px;
+ }
+ .text-box h1 span{
+   color: #ff004c;
+   animation: animate 4s ease-in-out infinite;
+ }
+ 
+ @keyframes animate
+ {
+   0%,100%
+   {
+      clip-path: polygon(0% 45%, 15% 44%, 32% 50%,
+            54% 60%, 70% 61%, 84% 59%, 100% 52%,
+            100% 100%, 0% 100%);
+   }
+   50%
+   {
+      clip-path: polygon(0 60%, 16% 65%, 34% 66%,
+            51% 62%, 67% 50%, 84% 45%, 100% 46%, 100%
+          100%, 0% 100%)
+   }
+ }
+ .blood{
+   width: max-content;
+   color: transparent;
+   position: absolute;
+   top: 30%;
+   left: 33%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+ }
+ .blood h1{
+   font-size: 40px;
+ }
+ .blood h1 span{
+   -webkit-text-stroke: 2px #ff004c;
+ }
+ .blood p{
+   
+   font-size: 28px;
+   color: transparent;
+ }
+ .text-box p{
+    
+    font-size: 28px;
+    color: white;
+ }
