@@ -183,7 +183,7 @@ button {
 
   .text-box{
     width: max-content;
-    color: white;
+    color: rgb(163, 26, 26);
     position: absolute;
     top: 30%;
     left: 33%;
@@ -192,6 +192,7 @@ button {
  }
  .text-box h1{
     font-size: 40px;
+ 
  }
  .text-box h1 span{
    color: #ff004c;
